@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buraco Zer0</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input id="menu-toggle" type="checkbox" />
+        <label for="menu-toggle">
+          <div class="menu-hamburger">
+            <span class="hamburger"></span>
+          </div>
+        </label>
+      </nav>
+    </header>
+    <main class="content">
+      <form method="POST" action="" enctype="multipart/form-data">
+  
+          <legend>Andamento da Denúncia</legend>
+          <div>
+            <label for="text">Responda as perguntas com base nas medidas tomadas</label>
+          </div>
+          <br />
+          <div>
+            <label for="text">*Obrigatório </label>
+          </div>
+          <br />
+          <label for="parecer">Parecer: * </label> 
+          <br />
+          <textarea name="parecer" id="parecer"></textarea>
+          <br />
+          <br />
+          <div>
+            <label for="text">Problema resolvido? * </label>
+          </div>
+          <input type="radio" name="aswer" value="Sim" id="Sim" /><label for="Sim" required >Sim</label>
+          <input type="radio" name="aswer" value="Não" id="Não" /> <label for="Não" required >Não</label> 
+          <br />
+          <br />
+          <picture>
+            <input type="image" src="./img/logoenviar.jpeg">
+          </picture>
+          <picture>
+            <input type="image" src="./img/logocancelar.jpeg">
+          </picture>
+
+
+        
+      </form>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </main>
+  </body>
+</html>
